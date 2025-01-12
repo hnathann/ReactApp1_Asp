@@ -1,0 +1,36 @@
+﻿
+const styles = {
+    nav:
+
+{
+    marginBottom: '20px', display: 'flex', justifyContent: 'center', gap: '10px',
+}
+
+,
+navButton: {
+    padding: '10px 20px', backgroundColor: '#4CAF50', color: 'white', border: 'none', borderRadius: '4px', cursor: 'pointer',
+}
+
+,
+form: {
+    display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '20px',
+}
+
+,
+input: {
+    margin: '10px 0', padding: '10px', width: '250px', border: '1px solid #ccc', borderRadius: '4px',
+}
+
+,
+button: {
+    padding: '10px 20px', backgroundColor: '#4CAF50', color: 'white', border: 'none', borderRadius: '4px', cursor: 'pointer',
+}
+
+,
+message: {
+    marginTop: '20px', textAlign: 'center', color: '#333',
+}
+
+,
+}
+;
