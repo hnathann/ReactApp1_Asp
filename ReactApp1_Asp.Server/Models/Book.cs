@@ -22,5 +22,8 @@ namespace ReactApp1_Asp.Server.Models
         public decimal Price { get; set; }
 
         public List<string> HistoryOfLeases { get; set; } = new List<string>();
+
+        public bool IsAvailable { get; set; } = true;
+        public bool IsReserved { get; set; } = false; 
     }
 }

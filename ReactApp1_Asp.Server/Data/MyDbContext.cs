@@ -7,8 +7,9 @@ namespace ReactApp1_Asp.Server.Data
     {
         public MyDbContext(DbContextOptions<MyDbContext> options) : base(options) { }
 
-       
-        public DbSet<User> Users { get; set; } //we add the user data TABLE HERE 
-        public DbSet<Book> Books { get; set; }
+        public DbSet<User> Users { get; set; } 
+        public DbSet<Book> Books { get; set; } 
+        public DbSet<Reservation> Reservations { get; set; } 
+        public DbSet<Loan> Loans { get; set; } 
     }
 }
